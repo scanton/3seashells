@@ -1,0 +1,7 @@
+#The Leading ActionScript Consultants
+
+= Introduction =
+
+ActionScript.com is the leading group of ActionScript consulting experts.
+
+  * Automatic links to other wiki pages

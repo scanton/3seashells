@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.ShapeCanvas"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.SpriteCanvas"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.CanvasContext"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.Flash10Graphics"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.HTML5Graphics"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.interfaces.ICanvasContext"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextHTML5"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextIOS"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.interfaces.ICanvas"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.AbstractGraphicOperation"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpBeginBitmapFill"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpBeginFill"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpBeginGradientFill"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpBeginShaderFill"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpClear"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpCopyFrom"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpCurveTo"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpDrawCircle"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpDrawEllipse"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpDrawGraphicsData"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpDrawPath"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpDrawRect"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpDrawRoundRect"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpDrawTriangles"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpEndFill"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpLineBitmapStyle"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpLineGradientStyle"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpLineShaderStyle"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpLineStyle"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpLineTo"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.GfxOpMoveTo"/>
+    <classEntry path="com.actionscript.graphics.seashells.operations.interfaces.IGraphicOperation"/>
+    <classEntry path="com.actionscript.graphics.seashells.renderers.Renderer"/>
+    <classEntry path="com.actionscript.graphics.seashells.renderers.interfaces.IRenderer"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

@@ -1,9 +1,9 @@
 package com.actionscript.graphics.seashells.canvases.interfaces
 {
-	import flash.display.Graphics;
-	
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.ICanvasContext;
 	import com.actionscript.graphics.seashells.renderers.interfaces.IRenderer;
+	
+	import flash.display.Graphics;
 
 	public interface ICanvas
 	{
@@ -14,9 +14,9 @@ package com.actionscript.graphics.seashells.canvases.interfaces
 		function get numCanvases():uint;
 		function addCanvas(canvas:ICanvas):uint;
 		function addCanvasAt(canvas:ICanvas, index:uint):uint;
+		function copyCanvas():ICanvas;
+		function getContext(context:String):ICanvasContext;
 		function removeCanvas(canvas:ICanvas):ICanvas;
 		function removeCanvasAt(index:uint):ICanvas;
-		
-		function getContext(context:String):ICanvasContext;
 	}
 }

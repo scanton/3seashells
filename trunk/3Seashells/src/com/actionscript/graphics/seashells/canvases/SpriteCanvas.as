@@ -32,6 +32,9 @@ package com.actionscript.graphics.seashells.canvases
 			}
 			return _canvas.addCanvasAt(canvas, index);
 		}
+		public function copyCanvas():ICanvas {
+			return _canvas.copyCanvas();
+		}
 		public function get numCanvases():uint {
 			return _canvas.numCanvases;
 		}

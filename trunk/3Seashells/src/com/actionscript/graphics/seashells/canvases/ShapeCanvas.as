@@ -2,9 +2,6 @@ package com.actionscript.graphics.seashells.canvases
 {
 	import actionscriptreference.utils.VectorUtils;
 	
-	import flash.display.Graphics;
-	import flash.display.Shape;
-	
 	import com.actionscript.graphics.seashells.canvases.contexts.CanvasContext;
 	import com.actionscript.graphics.seashells.canvases.contexts.Flash10Graphics;
 	import com.actionscript.graphics.seashells.canvases.contexts.HTML5Graphics;
@@ -13,6 +10,9 @@ package com.actionscript.graphics.seashells.canvases
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextHTML5;
 	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	import com.actionscript.graphics.seashells.renderers.interfaces.IRenderer;
+	
+	import flash.display.Graphics;
+	import flash.display.Shape;
 	
 	import spark.primitives.Graphic;
 	
@@ -49,6 +49,11 @@ package com.actionscript.graphics.seashells.canvases
 		}
 		public function addCanvasAt(canvas:ICanvas, index:uint):uint {
 			return addCanvas(canvas);
+		}
+		public function copyCanvas():ICanvas {
+			var s:ShapeCanvas = new ShapeCanvas();
+			s.graphics.copyFrom(graphics);
+			return s;
 		}
 		public function get numCanvases():uint {
 			return _canvases.length;

@@ -1,6 +1,6 @@
 package com.actionscript.graphics.heavyflash.geom
 {
-	import actionscriptreference.utils.TrigUtils;
+	import com.actionscript.utils.TrigUtils;
 	
 	import com.actionscript.graphics.heavyflash.geom.interfaces.IHeavyPoint;
 	

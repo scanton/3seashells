@@ -36,6 +36,45 @@
     <classEntry path="com.actionscript.graphics.seashells.operations.interfaces.IGraphicOperation"/>
     <classEntry path="com.actionscript.graphics.seashells.renderers.Renderer"/>
     <classEntry path="com.actionscript.graphics.seashells.renderers.interfaces.IRenderer"/>
+    <classEntry path="com.actionscript.utils.ColorUtils"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.interfaces.IHeavyPrimative"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxLineTo"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxBeginGradientFill"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxEndFill"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxMoveTo"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxDrawPrimative"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxDrawTriangles"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.interfaces.IHeavyOperation"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.geom.interfaces.IBoundRectangle"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.geom.HeavyMatrix"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxLineStyle"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxLineGradientStyle"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxDrawRect"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.NineBindings"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.HeavyDrawType"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxDrawCircle"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.geom.interfaces.IHeavyMatrix"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxDrawGraphicsData"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxDrawRoundRect"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxBeginShaderFill"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxLineBitmapStyle"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.HeavyBeginTypes"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxClear"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.HeavyLineStyleTypes"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.renderers.interfaces.IHeavyRenderer"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxLineShaderStyle"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxCurveTo"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.geom.BoundMatrix"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.renderers.HeavyRenderer"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.HeavyDirectiveTypes"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.geom.HeavyPoint"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxDrawEllipse"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxDrawPath"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxBeginFill"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxCopyFrom"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.geom.interfaces.IHeavyPoint"/>
+    <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxBeginBitmapFill"/>
+    <classEntry path="com.actionscript.utils.TrigUtils"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

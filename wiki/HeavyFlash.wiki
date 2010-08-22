@@ -10,7 +10,7 @@ Heavy Flash is a Flash library (developed by Satori Canton and ActionScript.com)
 
 = Details =
 
-HeavyFlash is a Flash library that extends 3Seashells.  If you are using 3Seashells, the HeavyFlash swc contains the entire 3Seashells library (you don't need both swc files).
+HeavyFlash is a Flash library that extends 3Seashells (now included with 3Seashells).
 
 HeavyFlash incudes some specific functional improvements over 3Seashells, including:
 
@@ -21,3 +21,7 @@ HeavyFlash incudes some specific functional improvements over 3Seashells, includ
 *Hfx Library - an abstraction of the 3Seashell GfxOp classes (all 3Seashell graphic operations begin with GfxOp, all HeavyFlash operations begin with Hfx).  Hfx operations use a slightly different (Rectangle based) system for describing the size of an area to be drawn.  This makes it easier to visualize and place the visual items that the system will render.
 
 *HfxPrimative - Hfx library also includes HfxPrimative which can be used for drawing complex shapes like starbursts.
+
+*ColorUtils - Satori Canton's ColorUtils class from ActionScript.com
+
+*TrigUtils - Satori Canton's TrigUtils class from ActionScript.com

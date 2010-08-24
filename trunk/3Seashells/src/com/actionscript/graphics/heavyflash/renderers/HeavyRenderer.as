@@ -1,6 +1,5 @@
 package com.actionscript.graphics.heavyflash.renderers
 {
-	import actionscriptreference.utils.VectorUtils;
 	
 	import com.actionscript.graphics.heavyflash.renderers.interfaces.IHeavyRenderer;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.ICanvasContext;
@@ -41,7 +40,9 @@ package com.actionscript.graphics.heavyflash.renderers
 		
 		public function addOperationAt(operaton:IGraphicOperation, index:uint):uint
 		{
-			return VectorUtils.addItemAt(_operations as Vector.<*>, operaton, index);
+			var o:* = _operations[index];
+			_operations.splice(index, 1);
+			return o;
 		}
 		
 		public function addOperations(operations:Vector.<IGraphicOperation>):uint

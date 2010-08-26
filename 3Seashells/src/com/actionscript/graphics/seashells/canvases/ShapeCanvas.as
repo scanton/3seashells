@@ -98,7 +98,7 @@ package com.actionscript.graphics.seashells.canvases
 		internal function  get html5Graphics():IContextHTML5 {
 			return _html5Graphics;
 		}
-		internal function get flash10Graphics():IContextFlash {
+		public function get flash10Graphics():IContextFlash {
 			return _flash10Graphics;
 		}
 	}

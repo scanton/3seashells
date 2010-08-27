@@ -1,6 +1,7 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	public class GfxOpDrawPath extends AbstractGraphicOperation
 	{
@@ -8,7 +9,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _data:Vector.<Number>;
 		internal var _winding:String;
 		
-		public function GfxOpDrawPath(canvas:IContextFlash, commands:Vector.<int>, data:Vector.<Number>, winding:String = "evenOdd")
+		public function GfxOpDrawPath(canvas:ICanvas, commands:Vector.<int>, data:Vector.<Number>, winding:String = "evenOdd")
 		{
 			super(canvas);
 			_commands = commands;

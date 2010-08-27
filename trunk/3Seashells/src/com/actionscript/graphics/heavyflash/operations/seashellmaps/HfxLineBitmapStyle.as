@@ -2,6 +2,7 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 {
 	import com.actionscript.graphics.heavyflash.operations.interfaces.IHeavyOperation;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	import com.actionscript.graphics.seashells.operations.GfxOpLineBitmapStyle;
 	
 	import flash.display.BitmapData;
@@ -10,7 +11,7 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 	
 	public class HfxLineBitmapStyle extends GfxOpLineBitmapStyle implements IHeavyOperation
 	{
-		public function HfxLineBitmapStyle(canvas:IContextFlash, bitmap:BitmapData, matrix:Matrix=null, repeat:Boolean=true, smooth:Boolean=false)
+		public function HfxLineBitmapStyle(canvas:ICanvas, bitmap:BitmapData, matrix:Matrix=null, repeat:Boolean=true, smooth:Boolean=false)
 		{
 			super(canvas, bitmap, matrix, repeat, smooth);
 		}

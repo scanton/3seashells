@@ -3,7 +3,6 @@
   <includeClasses>
     <classEntry path="com.actionscript.graphics.seashells.canvases.ShapeCanvas"/>
     <classEntry path="com.actionscript.graphics.seashells.canvases.SpriteCanvas"/>
-    <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.CanvasContext"/>
     <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.Flash10Graphics"/>
     <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.HTML5Graphics"/>
     <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.interfaces.ICanvasContext"/>

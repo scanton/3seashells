@@ -4,6 +4,7 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 	import com.actionscript.graphics.seashells.canvases.contexts.Flash10Graphics;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.ICanvasContext;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	import com.actionscript.graphics.seashells.operations.AbstractGraphicOperation;
 	
 	import flash.geom.Rectangle;
@@ -14,7 +15,7 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 		internal var _sides:int;
 		internal var _pointSize:Number;
 		
-		public function HfxDrawPrimative(canvas:ICanvasContext, rect:Rectangle, sides:int, pointSize:Number)
+		public function HfxDrawPrimative(canvas:ICanvas, rect:Rectangle, sides:int, pointSize:Number)
 		{
 			super(canvas);
 			_rect = rect;

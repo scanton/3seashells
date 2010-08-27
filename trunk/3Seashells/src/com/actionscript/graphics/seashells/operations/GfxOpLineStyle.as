@@ -1,6 +1,7 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	public class GfxOpLineStyle extends AbstractGraphicOperation
 	{
@@ -13,7 +14,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _joints:String = null;
 		internal var _miterLimit:Number = 3;
 		
-		public function GfxOpLineStyle(canvas:IContextFlash, thickness:Number = NaN, color:uint = 0, alpha:Number = 1.0, pixelHinting:Boolean = false, scaleMode:String = "normal", caps:String = null, joints:String = null, miterLimit:Number = 3)
+		public function GfxOpLineStyle(canvas:ICanvas, thickness:Number = NaN, color:uint = 0, alpha:Number = 1.0, pixelHinting:Boolean = false, scaleMode:String = "normal", caps:String = null, joints:String = null, miterLimit:Number = 3)
 		{
 			super(canvas);
 			_thickness = thickness;

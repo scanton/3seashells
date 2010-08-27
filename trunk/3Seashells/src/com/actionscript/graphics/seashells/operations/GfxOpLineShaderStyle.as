@@ -1,6 +1,7 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	import flash.display.Shader;
 	import flash.geom.Matrix;
@@ -10,7 +11,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _shader:Shader;
 		internal var _matrix:Matrix = null;
 		
-		public function GfxOpLineShaderStyle(canvas:IContextFlash, shader:Shader, matrix:Matrix = null)
+		public function GfxOpLineShaderStyle(canvas:ICanvas, shader:Shader, matrix:Matrix = null)
 		{
 			super(canvas);
 			_shader = shader;

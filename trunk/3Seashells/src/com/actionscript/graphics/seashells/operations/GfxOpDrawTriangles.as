@@ -1,6 +1,7 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	public class GfxOpDrawTriangles extends AbstractGraphicOperation
 	{
@@ -9,7 +10,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _uvtData:Vector.<Number> = null;
 		internal var _culling:String = "none";
 		
-		public function GfxOpDrawTriangles(canvas:IContextFlash, vertices:Vector.<Number>, indices:Vector.<int> = null, uvtData:Vector.<Number> = null, culling:String = "none")
+		public function GfxOpDrawTriangles(canvas:ICanvas, vertices:Vector.<Number>, indices:Vector.<int> = null, uvtData:Vector.<Number> = null, culling:String = "none")
 		{
 			super(canvas);
 			_vertices = vertices;

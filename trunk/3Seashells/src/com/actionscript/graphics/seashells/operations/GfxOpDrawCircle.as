@@ -1,6 +1,7 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	public class GfxOpDrawCircle extends AbstractGraphicOperation
 	{
@@ -8,7 +9,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _y:Number;
 		internal var _radius:Number;
 		
-		public function GfxOpDrawCircle(canvas:IContextFlash, x:Number, y:Number, radius:Number)
+		public function GfxOpDrawCircle(canvas:ICanvas, x:Number, y:Number, radius:Number)
 		{
 			super(canvas);
 			_x = x;

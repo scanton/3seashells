@@ -4,6 +4,7 @@ package com.actionscript.graphics.heavyflash.renderers
 	import com.actionscript.graphics.heavyflash.renderers.interfaces.IHeavyRenderer;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.ICanvasContext;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	import com.actionscript.graphics.seashells.operations.AbstractGraphicOperation;
 	import com.actionscript.graphics.seashells.operations.interfaces.IGraphicOperation;
 	import com.actionscript.graphics.seashells.renderers.interfaces.IRenderer;
@@ -12,7 +13,7 @@ package com.actionscript.graphics.heavyflash.renderers
 	{
 		internal var _operations:Vector.<IGraphicOperation>;
 		
-		public function HeavyRenderer(canvas:ICanvasContext)
+		public function HeavyRenderer(canvas:ICanvas)
 		{
 			super(canvas);
 			_operations = new Vector.<IGraphicOperation>();
@@ -40,9 +41,7 @@ package com.actionscript.graphics.heavyflash.renderers
 		
 		public function addOperationAt(operaton:IGraphicOperation, index:uint):uint
 		{
-			var o:* = _operations[index];
-			_operations.splice(index, 1);
-			return o;
+			return _operations.splice(index, 0, operaton).length;
 		}
 		
 		public function addOperations(operations:Vector.<IGraphicOperation>):uint

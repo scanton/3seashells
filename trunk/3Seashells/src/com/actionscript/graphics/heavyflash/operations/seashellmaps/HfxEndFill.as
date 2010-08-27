@@ -2,13 +2,14 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 {
 	import com.actionscript.graphics.heavyflash.operations.interfaces.IHeavyOperation;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	import com.actionscript.graphics.seashells.operations.GfxOpEndFill;
 	
 	import flash.geom.Rectangle;
 	
 	public class HfxEndFill extends GfxOpEndFill implements IHeavyOperation
 	{
-		public function HfxEndFill(canvas:IContextFlash=null)
+		public function HfxEndFill(canvas:ICanvas=null)
 		{
 			super(canvas);
 		}

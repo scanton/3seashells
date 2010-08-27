@@ -1,6 +1,7 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	public class GfxOpCurveTo extends AbstractGraphicOperation
 	{
@@ -9,7 +10,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _anchorX:Number;
 		internal var _anchorY:Number;
 		
-		public function GfxOpCurveTo(canvas:IContextFlash, controlX:Number, controlY:Number, anchorX:Number, anchorY:Number)
+		public function GfxOpCurveTo(canvas:ICanvas, controlX:Number, controlY:Number, anchorX:Number, anchorY:Number)
 		{
 			super(canvas);
 			_controlX = controlX;

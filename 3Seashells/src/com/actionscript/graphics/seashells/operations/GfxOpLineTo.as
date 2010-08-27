@@ -1,13 +1,14 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	public class GfxOpLineTo extends AbstractGraphicOperation
 	{
 		internal var _x:Number;
 		internal var _y:Number;
 		
-		public function GfxOpLineTo(canvas:IContextFlash, x:Number, y:Number)
+		public function GfxOpLineTo(canvas:ICanvas, x:Number, y:Number)
 		{
 			super(canvas);
 			_x = x;

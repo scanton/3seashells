@@ -1,7 +1,7 @@
 package com.actionscript.graphics.heavyflash.operations.seashellmaps
 {
 	import com.actionscript.graphics.heavyflash.operations.interfaces.IHeavyOperation;
-	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	import com.actionscript.graphics.seashells.operations.GfxOpDrawRect;
 	
 	import flash.geom.Rectangle;
@@ -10,7 +10,7 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 	{
 		internal var _rect:Rectangle;
 		
-		public function HfxDrawRect(canvas:IContextFlash, rect:Rectangle)
+		public function HfxDrawRect(canvas:ICanvas, rect:Rectangle)
 		{
 			_rect = rect;
 			super(canvas, rect.x, rect.y, rect.width, rect.height);

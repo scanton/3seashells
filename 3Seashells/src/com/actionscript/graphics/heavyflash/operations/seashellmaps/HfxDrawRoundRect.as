@@ -2,6 +2,7 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 {
 	import com.actionscript.graphics.heavyflash.operations.interfaces.IHeavyOperation;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	import com.actionscript.graphics.seashells.operations.GfxOpDrawRoundRect;
 	
 	import flash.geom.Rectangle;
@@ -11,7 +12,7 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 		internal var _rect:Rectangle;
 		internal var _ellipse:Rectangle;
 		
-		public function HfxDrawRoundRect(canvas:IContextFlash, rect:Rectangle, ellipse:Rectangle)
+		public function HfxDrawRoundRect(canvas:ICanvas, rect:Rectangle, ellipse:Rectangle)
 		{
 			super(canvas, rect.x, rect.y, rect.width, rect.height, ellipse.width, ellipse.height);
 		}

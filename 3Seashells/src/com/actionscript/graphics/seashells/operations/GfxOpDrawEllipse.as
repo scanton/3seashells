@@ -1,6 +1,7 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	public class GfxOpDrawEllipse extends AbstractGraphicOperation
 	{
@@ -9,7 +10,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _width:Number;
 		internal var _height:Number;
 		
-		public function GfxOpDrawEllipse(canvas:IContextFlash, x:Number, y:Number, width:Number, height:Number)
+		public function GfxOpDrawEllipse(canvas:ICanvas, x:Number, y:Number, width:Number, height:Number)
 		{
 			super(canvas);
 			_x = x;

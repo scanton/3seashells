@@ -1,7 +1,9 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
+	import flash.display.Graphics;
 	import flash.geom.Matrix;
 	
 	public class GfxOpBeginGradientFill extends AbstractGraphicOperation
@@ -15,7 +17,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _interpolationMethod:String;
 		internal var _focalPointRatio:Number;
 		
-		public function GfxOpBeginGradientFill(canvas:IContextFlash, type:String, colors:Array, alphas:Array, ratios:Array, matrix:Matrix = null, spreadMethod:String = "pad", interpolationMethod:String = "rgb", focalPointRatio:Number = 0)
+		public function GfxOpBeginGradientFill(canvas:ICanvas, type:String, colors:Array, alphas:Array, ratios:Array, matrix:Matrix = null, spreadMethod:String = "pad", interpolationMethod:String = "rgb", focalPointRatio:Number = 0)
 		{
 			super(canvas);
 			_type = type;

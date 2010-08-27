@@ -1,14 +1,13 @@
 package com.actionscript.graphics.seashells.canvases
 {
-	import actionscriptreference.utils.VectorUtils;
-	
-	import flash.display.DisplayObject;
-	import flash.display.Sprite;
 	
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.ICanvasContext;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
 	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	import com.actionscript.graphics.seashells.renderers.interfaces.IRenderer;
+	
+	import flash.display.DisplayObject;
+	import flash.display.Sprite;
 	
 	public class SpriteCanvas extends Sprite implements ICanvas
 	{
@@ -19,38 +18,9 @@ package com.actionscript.graphics.seashells.canvases
 			super();
 			_canvas = addChild(new ShapeCanvas()) as ShapeCanvas;
 		}
-		
-		public function addCanvas(canvas:ICanvas):uint {
-			if(canvas is DisplayObject) {
-				addChild(canvas as DisplayObject);
-			}
-			return _canvas.addCanvas(canvas);
-		}
-		public function addCanvasAt(canvas:ICanvas, index:uint):uint {
-			if(canvas is DisplayObject) {
-				addChildAt(canvas as DisplayObject, index);
-			}
-			return _canvas.addCanvasAt(canvas, index);
-		}
-		public function copyCanvas():ICanvas {
-			return _canvas.copyCanvas();
-		}
-		public function get numCanvases():uint {
-			return _canvas.numCanvases;
-		}
-		public function removeCanvas(canvas:ICanvas):ICanvas {
-			if(canvas is DisplayObject) {
-				removeChild(canvas as DisplayObject);
-			}
-			return _canvas.removeCanvas(canvas);
-		}
-		public function removeCanvasAt(index:uint):ICanvas
+		public function get canvas():IContextFlash
 		{
-			var c:ICanvas = _canvas.removeCanvasAt(index);
-			if(c is DisplayObject) {
-				removeChild(c as DisplayObject);
-			}
-			return c;
+			return _canvas.canvas;
 		}
 		/** maping Flash instance.name and HTML5.canvas.id */
 		public function get id():String

@@ -1,6 +1,8 @@
 package com.actionscript.graphics.seashells.operations
 {
+	
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	import flash.display.Graphics;
 	
@@ -8,7 +10,7 @@ package com.actionscript.graphics.seashells.operations
 	{
 		internal var _sourceGraphics:Graphics;
 		
-		public function GfxOpCopyFrom(canvas:IContextFlash, sourceGraphics:Graphics)
+		public function GfxOpCopyFrom(canvas:ICanvas, sourceGraphics:Graphics)
 		{
 			super(canvas);
 			_sourceGraphics;

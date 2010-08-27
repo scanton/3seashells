@@ -2,7 +2,6 @@ package com.actionscript.graphics.seashells.renderers
 {
 	import com.actionscript.graphics.seashells.operations.interfaces.IGraphicOperation;
 	import com.actionscript.graphics.seashells.renderers.interfaces.IRenderer;
-	import actionscriptreference.utils.VectorUtils;
 	
 	public class Renderer implements IRenderer
 	{
@@ -25,7 +24,7 @@ package com.actionscript.graphics.seashells.renderers
 		
 		public function addOperationAt(operaton:IGraphicOperation, index:uint):uint
 		{
-			return VectorUtils.addItemAt(_operations as Vector.<*>, operaton, index);
+			return _operations.splice(index, 0, operaton).length;
 		}
 		
 		public function addOperations(operations:Vector.<IGraphicOperation>):uint

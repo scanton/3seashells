@@ -1,6 +1,7 @@
 package com.actionscript.graphics.seashells.operations
 {
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	public class GfxOpDrawRoundRect extends AbstractGraphicOperation
 	{
@@ -11,7 +12,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _ellipseWidth:Number;
 		internal var _ellipseHeight:Number;
 		
-		public function GfxOpDrawRoundRect(canvas:IContextFlash, x:Number, y:Number, width:Number, height:Number, ellipseWidth:Number, ellipseHeight:Number = NaN)
+		public function GfxOpDrawRoundRect(canvas:ICanvas, x:Number, y:Number, width:Number, height:Number, ellipseWidth:Number, ellipseHeight:Number = NaN)
 		{
 			super(canvas);
 			_x = x;

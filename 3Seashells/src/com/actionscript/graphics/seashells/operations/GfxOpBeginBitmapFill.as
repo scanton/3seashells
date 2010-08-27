@@ -1,9 +1,10 @@
 package com.actionscript.graphics.seashells.operations
 {
-	import com.actionscript.graphics.seashells.canvases.contexts.Flash10Graphics;
 	import com.actionscript.graphics.seashells.canvases.contexts.interfaces.IContextFlash;
+	import com.actionscript.graphics.seashells.canvases.interfaces.ICanvas;
 	
 	import flash.display.BitmapData;
+	import flash.display.Graphics;
 	import flash.geom.Matrix;
 	
 	public class GfxOpBeginBitmapFill extends AbstractGraphicOperation
@@ -13,7 +14,7 @@ package com.actionscript.graphics.seashells.operations
 		internal var _repeat:Boolean;
 		internal var _smooth:Boolean;
 		
-		public function GfxOpBeginBitmapFill(canvas:IContextFlash, bitmap:BitmapData, matrix:Matrix = null, repeat:Boolean = true, smooth:Boolean = false)
+		public function GfxOpBeginBitmapFill(canvas:ICanvas, bitmap:BitmapData, matrix:Matrix = null, repeat:Boolean = true, smooth:Boolean = false)
 		{
 			super(canvas);
 			_bitmap = bitmap;

@@ -1,5 +1,6 @@
 package com.actionscript.utils
 {
+	import flash.geom.Point;
 
 	public class TrigUtils
 	{
@@ -39,6 +40,12 @@ package com.actionscript.utils
 			}
 			degrees = Math.round(degrees) % _sinTable.length;
 			return _cosTable[degrees];
+		}
+		public static function angleTo(toPoint:Point, fromPoint:Point):Number
+		{
+			var deltaX:Number = toPoint.x - fromPoint.x; 
+			var deltaY:Number = toPoint.y - fromPoint.y; 
+			return Math.atan2(deltaY, deltaX) * 180 / Math.PI;
 		}
 		
 		public static function degreesToRadians(degrees:Number):Number

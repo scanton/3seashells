@@ -11,6 +11,7 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 	
 	public class HfxBeginBitmapFill extends GfxOpBeginBitmapFill implements IHeavyOperation
 	{
+		
 		public function HfxBeginBitmapFill(canvas:ICanvas, bitmap:BitmapData, matrix:Matrix=null, repeat:Boolean=true, smooth:Boolean=false)
 		{
 			super(canvas, bitmap, matrix, repeat, smooth);

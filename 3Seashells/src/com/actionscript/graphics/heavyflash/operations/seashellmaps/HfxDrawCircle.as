@@ -13,8 +13,8 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 		
 		public function HfxDrawCircle(canvas:ICanvas, rect:Rectangle)
 		{
-			_rect = rect;
 			super(canvas, rect.x, rect.y, rect.width/2);
+			_rect = rect;
 		}
 		
 		public function get rect():Rectangle

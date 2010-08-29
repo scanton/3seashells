@@ -13,8 +13,8 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 		
 		public function HfxLineTo(canvas:ICanvas, rect:Rectangle)
 		{
-			_rect = rect;
 			super(canvas, rect.x, rect.y);
+			_rect = rect;
 		}
 		
 		public function get rect():Rectangle

@@ -73,9 +73,9 @@ package com.actionscript.graphics.seashells.canvases
 		public function get flash10Graphics():IContextFlash {
 			return _flash10Graphics;
 		}
-		public function get canvas():IContextFlash
+		public function get canvas():ICanvas
 		{
-			return flash10Graphics;
+			return new Flash10Graphics(graphics) as ICanvas;
 		}
 	}
 }

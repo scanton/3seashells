@@ -1,7 +1,5 @@
 package com.actionscript.utils
 {
-	import mx.utils.ColorUtil;
-
 	public class ColorUtils
 	{
 		public static const BLACK : uint = 0x000000;
@@ -34,10 +32,6 @@ package com.actionscript.utils
 		{
 			var o:Object = hslfromrgb(rgb);
 			return hsl(o.hue, o.saturation + diff, o.luminance);
-		}
-		public static function rgbMultiply(rgb1:uint, rgb2:uint):uint
-		{
-			return mx.utils.ColorUtil.rgbMultiply(rgb1, rgb2);
 		}
 		public static function blue(color:uint):uint
 		{

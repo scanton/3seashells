@@ -12,8 +12,8 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 		
 		public function HfxDrawRect(canvas:ICanvas, rect:Rectangle)
 		{
-			_rect = rect;
 			super(canvas, rect.x, rect.y, rect.width, rect.height);
+			_rect = rect;
 		}
 		
 		public function get rect():Rectangle

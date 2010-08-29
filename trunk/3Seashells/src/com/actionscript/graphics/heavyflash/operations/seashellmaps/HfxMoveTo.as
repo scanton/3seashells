@@ -13,8 +13,8 @@ package com.actionscript.graphics.heavyflash.operations.seashellmaps
 		
 		public function HfxMoveTo(canvas:ICanvas, rect:Rectangle)
 		{
-			_rect = rect;
 			super(canvas, rect.right, rect.bottom);
+			_rect = rect;
 		}
 		
 		public function get rect():Rectangle

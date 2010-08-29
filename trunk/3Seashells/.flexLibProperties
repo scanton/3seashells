@@ -74,6 +74,8 @@
     <classEntry path="com.actionscript.graphics.heavyflash.geom.interfaces.IHeavyPoint"/>
     <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxBeginBitmapFill"/>
     <classEntry path="com.actionscript.utils.TrigUtils"/>
+    <classEntry path="com.actionscript.audio.interfaces.IAudioChannelManager"/>
+    <classEntry path="com.actionscript.audio.AudioChannelManager"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

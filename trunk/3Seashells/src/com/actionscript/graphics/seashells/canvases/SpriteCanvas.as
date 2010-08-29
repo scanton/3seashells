@@ -11,16 +11,16 @@ package com.actionscript.graphics.seashells.canvases
 	
 	public class SpriteCanvas extends Sprite implements ICanvas
 	{
-		internal var _canvas:ShapeCanvas;
+		internal var _shape:ShapeCanvas;
 		
 		public function SpriteCanvas()
 		{
 			super();
-			_canvas = addChild(new ShapeCanvas()) as ShapeCanvas;
+			_shape = addChild(new ShapeCanvas()) as ShapeCanvas;
 		}
-		public function get canvas():IContextFlash
+		public function get canvas():ICanvas
 		{
-			return _canvas.canvas;
+			return _shape.canvas;
 		}
 		/** maping Flash instance.name and HTML5.canvas.id */
 		public function get id():String
@@ -35,11 +35,11 @@ package com.actionscript.graphics.seashells.canvases
 		}
 		
 		public function get renderer():IRenderer {
-			return _canvas.renderer;
+			return _shape.renderer;
 		}
 		
 		public function set renderer(renderer:IRenderer):void {
-			_canvas.renderer = renderer;
+			_shape.renderer = renderer;
 		}
 		
 		/** @context doesn't really matter in this context, since
@@ -50,7 +50,7 @@ package com.actionscript.graphics.seashells.canvases
 		 * */
 		public function getContext(context:String):ICanvasContext
 		{
-			return IContextFlash(_canvas.getContext(context));
+			return IContextFlash(_shape.getContext(context));
 		}
 	}
 }

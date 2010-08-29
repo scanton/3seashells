@@ -11,6 +11,6 @@ package com.actionscript.graphics.seashells.canvases.interfaces
 		function set id(value:String):void;
 		function get renderer():IRenderer;
 		function set renderer(renderer:IRenderer):void;
-		function get canvas():IContextFlash;
+		function get canvas():ICanvas;
 	}
 }

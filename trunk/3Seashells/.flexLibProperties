@@ -3,6 +3,7 @@
   <includeClasses>
     <classEntry path="com.actionscript.graphics.seashells.canvases.ShapeCanvas"/>
     <classEntry path="com.actionscript.graphics.seashells.canvases.SpriteCanvas"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.CanvasContext"/>
     <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.Flash10Graphics"/>
     <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.HTML5Graphics"/>
     <classEntry path="com.actionscript.graphics.seashells.canvases.contexts.interfaces.ICanvasContext"/>
@@ -75,7 +76,7 @@
     <classEntry path="com.actionscript.graphics.heavyflash.operations.seashellmaps.HfxBeginBitmapFill"/>
     <classEntry path="com.actionscript.utils.TrigUtils"/>
     <classEntry path="com.actionscript.audio.interfaces.IAudioChannelManager"/>
-    <classEntry path="com.actionscript.audio.AudioChannelManager"/>
+    <classEntry path="com.actionscript.graphics.seashells.canvases.BitmapCanvas"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
